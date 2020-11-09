@@ -13,6 +13,8 @@ const CustomButton = styled.button`
   font-size: 1.2em;
 `;
 
+//When user clicks a button, trigger an action
+
 function ButtonWrapper(props) {
   return <CustomButton {...props}/>;
 }

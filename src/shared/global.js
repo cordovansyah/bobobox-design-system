@@ -1,6 +1,8 @@
 import { createGlobalStyle, css } from 'styled-components';
 import { color, typography } from './styles';
 
+export const fontUrl = 'https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700';
+
 export const bodyStyles = css`
   font-family: ${typography.type.primary};
   font-size: ${typography.size.s3}px;
